@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: crud_app1
+=======
+name: all_my_flutter_project
+>>>>>>> 3e1bbcb1849df59fde838b27a56a71b9f3ee57f8
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,14 +34,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   mysql1: ^0.20.0
+=======
+>>>>>>> 3e1bbcb1849df59fde838b27a56a71b9f3ee57f8
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+<<<<<<< HEAD
   http: ^1.1.0
   dio: ^4.0.0
+=======
+>>>>>>> 3e1bbcb1849df59fde838b27a56a71b9f3ee57f8
 
 dev_dependencies:
   flutter_test:
@@ -62,8 +72,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
+<<<<<<< HEAD
   assets:
     - images/IMG.jpg
+=======
+  # assets:
+  #   - images/a_dot_burr.jpeg
+>>>>>>> 3e1bbcb1849df59fde838b27a56a71b9f3ee57f8
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

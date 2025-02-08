@@ -23,7 +23,11 @@ if (flutterVersionName == null) {
 }
 
 android {
+<<<<<<< HEAD
     namespace "com.example.crud_app1"
+=======
+    namespace "com.example.all_my_flutter_project"
+>>>>>>> 3e1bbcb1849df59fde838b27a56a71b9f3ee57f8
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -32,9 +36,23 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+<<<<<<< HEAD
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.example.crud_app1"
+=======
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.example.all_my_flutter_project"
+>>>>>>> 3e1bbcb1849df59fde838b27a56a71b9f3ee57f8
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutter.minSdkVersion
@@ -55,3 +73,8 @@ android {
 flutter {
     source '../..'
 }
+<<<<<<< HEAD
+=======
+
+dependencies {}
+>>>>>>> 3e1bbcb1849df59fde838b27a56a71b9f3ee57f8
